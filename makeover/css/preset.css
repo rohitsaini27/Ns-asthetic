@@ -57,7 +57,7 @@ a{
     -webkit-transition: all ease 400ms;
 }
 a:hover{
-    color: #f7a392;
+    color: #881000;
     text-decoration: none;
 }
 a:focus, input:focus, button:focus, select:focus, textarea:focus{
@@ -87,7 +87,7 @@ input[type="number"]::-webkit-inner-spin-button {
     font-family: 'Playfair Display', serif;
 }
 .colorPrimary{
-    color: #f7a392;
+    color: #881000;
 }
 .fontWeight400{
     font-weight: 400;
@@ -120,7 +120,7 @@ input[type="number"]::-webkit-inner-spin-button {
     padding-right: 29px;
 }
 .mo_btn:hover{
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 .mo_btn i{
@@ -132,7 +132,7 @@ input[type="number"]::-webkit-inner-spin-button {
     color: #FFF;
     text-align: center;
     border-radius: 50%;
-    background: #f7a392;
+    background: #881000;
     font-size: 14px;
     line-height: 25px;
     
@@ -148,13 +148,13 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .mo_btn:hover i{
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
 }
 .mob_shadow{
     box-shadow: -2px 4px 7px 0px rgba(226, 225, 225, 0.79);
 }
 .mo_reverse{
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 .mo_reverse:hover{
@@ -163,10 +163,10 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .mo_reverse i{
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
 }
 .mo_reverse:hover i{
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 
@@ -191,7 +191,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .sectionTitle h5{
     font-size: 16px;
-    color: #f7a392;
+    color: #881000;
     font-weight: 300;
     letter-spacing: 3.2px;
     line-height: .8;
@@ -332,7 +332,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .la-ball-scale-multiple,
 .la-ball-scale-multiple>div{position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.la-ball-scale-multiple{display:block;font-size:0;color:#f7a392}
+.la-ball-scale-multiple{display:block;font-size:0;color:#881000}
 .la-ball-scale-multiple.la-dark{color:#03030f}
 .la-ball-scale-multiple>div{display:inline-block;float:none;background-color:currentColor;border:0 solid currentColor}
 .la-ball-scale-multiple{width:32px;height:32px}

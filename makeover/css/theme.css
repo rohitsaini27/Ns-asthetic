@@ -35,10 +35,11 @@
 /------------------------------------------------------------------*/
 /*-- Header 01 ---*/
 .header_01{
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 0;
     width: 100%;
+    background-color: #881000;
     z-index: 99;
     padding: 35px 85px 0;
 }
@@ -77,7 +78,7 @@
     display: block;
     font-size: 16px;
     line-height: .8;
-    color: #252525;
+    color: #fff;
     font-weight: 500;
     font-family: 'Playfair Display', serif;
     position: relative;
@@ -95,7 +96,7 @@
 }
 .mainMenu ul li:hover > a, 
 .mainMenu ul li.current-menu-item > a {
-    color: #f7a392;
+    color: #881000;
 }
 .mainMenu > ul ul {
     position: absolute;
@@ -106,7 +107,7 @@
     z-index: 5;
     background: #fff;
     display: block;
-    border-top: 3px solid #f7a392;
+    border-top: 3px solid #881000;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -167,7 +168,7 @@
     position: relative;
 }
 .humBurger:hover, .humBurger.active{
-    background: #f7a392;
+    background: #881000;
 }
 .humBurger span{
     position: absolute;
@@ -288,8 +289,8 @@
     text-align: center;
 }
 .widget_closer:hover {
-    color: #f7a392;
-    border-color: #f7a392;
+    color: #881000;
+    border-color: #881000;
 }
 .about_widget_area {
     position: relative;
@@ -346,8 +347,8 @@
 }
 .social_item a:hover{
     color: #fff;
-    background: #f7a392;
-    border-color: #f7a392;
+    background: #881000;
+    border-color: #881000;
 }
 .center_align{
     z-index: 4;
@@ -478,7 +479,7 @@
     line-height: .8;
     letter-spacing: 0;
     font-weight: 900;
-    color: #f7a392;
+    color: #881000;
     margin: 0 0 19px;
 }
 .expContent h2 i{
@@ -594,11 +595,11 @@
     fill: inherit;
 }
 .serviceItem_01:hover .ib_box svg{
-    fill: #f7a392;
+    fill: #881000;
 }
 .ib_box > i{
     font-size: 56px;
-    color: #f7a392;
+    color: #881000;
     left: 0;
     margin: auto;
     position: absolute;
@@ -613,7 +614,7 @@
 }
 .ib_box .bg_icon{
     font-size: 100px;
-    color: #f7a392;
+    color: #881000;
     opacity: .2;
     left: 0;
     margin: auto;
@@ -641,7 +642,7 @@
     color: inherit;
 }
 .serviceItem_01 h3 a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .serviceItem_01 p{
     margin: 0;
@@ -753,25 +754,25 @@ textarea{
 }
 .nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
     background: transparent;
-    color: #f7a392;
+    color: #881000;
 }
 .appointment_form .mo_btn {
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
     border: none;
     padding-right: 20px;
 }
 .appointment_form .mo_btn i {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
 }
 .appointment_form .mo_btn:hover {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
     box-shadow: -2px 4px 7px 0px rgba(226, 225, 225, .79);
 }
 .appointment_form .mo_btn:hover i {
-    background: #f7a392;
+    background: #881000;
     color: #fff;
 }
 .appointment_form .reqError{
@@ -800,7 +801,7 @@ textarea{
 .icon_box_01 i{
     width: 37px;
     height: 37px;
-    background: #f7a392;
+    background: #881000;
     font-size: 18px;
     color: #fff;
     text-align: center;
@@ -841,7 +842,7 @@ textarea{
     font-size: 18px;
 }
 .package_item h5 a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .package_item .piborder{
     flex: 1;
@@ -961,7 +962,7 @@ textarea{
 }
 .test_author span{
     font-size: 14px;
-    color: #f7a392;
+    color: #881000;
     line-height: 18px;
     margin: 0 0 8px;
     display: block;
@@ -1029,7 +1030,7 @@ textarea{
 }
 .bp_content span{
     display: block;
-    color: #f7a392;
+    color: #881000;
     font-size: 12px;
     margin-bottom: 3px;
 }
@@ -1042,7 +1043,7 @@ textarea{
     color: inherit;
 }
 .bp_content h3 a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .lr_more{
     position: relative;
@@ -1069,10 +1070,10 @@ textarea{
 }
 .lr_more:hover svg {
     transform: translate3d(-66.6%, 0, 0);
-    stroke: #f7a392;
+    stroke: #881000;
 }
 .lr_more:hover{
-    color: #f7a392;
+    color: #881000;
 }
 
 /*-- Instagram Section ---*/
@@ -1181,20 +1182,20 @@ footer .widget .widget_title{
     margin-bottom: 26px;
 }
 .about_widget .mo_btn {
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 .about_widget .mo_btn i {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
 }
 .about_widget .mo_btn:hover {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
     box-shadow: -2px 4px 7px 0px rgb(226 225 225 / 79%);
 }
 .about_widget .mo_btn:hover i{
-    background: #f7a392;
+    background: #881000;
     color: #fff;
 }
 .mc4wp-form-fields{
@@ -1205,7 +1206,7 @@ footer .widget .widget_title{
     width: 100%;
     height: 60px;
     border-radius: 30px;
-    border: 1px solid #f7a392;
+    border: 1px solid #881000;
     background: transparent;
     border-radius: 30px;
     outline: none;
@@ -1235,7 +1236,7 @@ footer .widget .widget_title{
     outline: none;
     margin: 0;
     padding: 0;
-    background: #f7a392;
+    background: #881000;
     position: absolute;
     height: 56px;
     width: 100px;
@@ -1261,7 +1262,7 @@ footer .widget .widget_title{
     height: 49px;
     width: 49px;
     font-size: 16px;
-    background: #f7a392;
+    background: #881000;
     border-radius: 50%;
     text-align: center;
     line-height: 49px;
@@ -1290,7 +1291,7 @@ footer .widget ul li a{
     color: inherit;
 }
 footer .widget ul li a:hover{
-    color: #f7a392;
+    color: #881000;
     padding-left: 6px;
 }
 
@@ -1310,7 +1311,7 @@ footer .widget ul li a:hover{
     color: inherit;
 }
 .copyright p a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .copy_social{
     position: relative;
@@ -1329,7 +1330,7 @@ footer .widget ul li a:hover{
     margin-left: 6px;
 }
 .copy_social a:hover{
-    background: #f7a392;
+    background: #881000;
     color: #fff;
 }
 
@@ -1340,7 +1341,7 @@ footer .widget ul li a:hover{
     bottom: -30px;
     width: 40px;
     height: 40px;
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
     font-size: 20px;
     border-radius: 50%;
@@ -1403,12 +1404,12 @@ footer .widget ul li a:hover{
     border-left: 1px solid #fff;
 }
 .navAccess_02 a:hover{
-    background: #f7a392;
+    background: #881000;
     color: #fff;
 }
 .navAccess_02 .mo_btn{
     width: auto;
-    background: #f7a392;
+    background: #881000;
     font-size: 16px;
     color: #fff;
     padding: 0 36px;
@@ -1490,8 +1491,8 @@ body.menu_open{
     transform: translateY(0px);
 }
 .menu-close:hover{
-    color: #f7a392;
-    border-color: #f7a392;
+    color: #881000;
+    border-color: #881000;
 }
 .popup_menu .menu_top{
     position: relative;
@@ -1553,7 +1554,7 @@ body.menu_open{
 }
 .menu_popup ul li.active > a,
 .menu_popup ul li:hover > a{
-    color: #f7a392;
+    color: #881000;
 }
 .menu_popup ul li.menu-item-has-children > a{
     position: relative;
@@ -1660,7 +1661,7 @@ body.menu_open{
     color: inherit;
 }
 .f_copy p a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .foo_social {
     position: relative;
@@ -1701,7 +1702,7 @@ body.menu_open{
     -webkit-transition: all ease 400ms;
 }
 .foo_social a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .popup_menu.active .bottom_menu{
     z-index: 99;
@@ -1741,11 +1742,11 @@ body.menu_open{
 }
 .tparrows.custom:hover{
     box-shadow: none;
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 .tparrows.custom.darks:hover{
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 
@@ -1793,7 +1794,7 @@ body.menu_open{
     font-size: 32px;
 }
 .serviceItem_02:hover .ib_box svg {
-    fill: #f7a392;
+    fill: #881000;
 }
 .serviceItem_02:hover .ib_box .bg_icon {
     color: #fff;
@@ -1809,7 +1810,7 @@ body.menu_open{
     color: inherit;
 }
 .serviceItem_02 h3 a:hover {
-    color: #f7a392;
+    color: #881000;
 }
 .serviceItem_02 p {
     margin: 0;
@@ -1824,7 +1825,7 @@ body.menu_open{
 .video_banner .popup_video{
     width: 80px;
     height: 80px;
-    background: #f7a392;
+    background: #881000;
     color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -1863,7 +1864,7 @@ body.menu_open{
     transition: all 0.4s ease;
 }
 .serviceItem_03:hover:after{
-    background: #f7a392;
+    background: #881000;
 }
 .serviceItem_03 img{
     width: 100%;
@@ -1993,7 +1994,7 @@ body.menu_open{
     height: 0;
     z-index: -1;
     content: '';
-    background: #f7a392;
+    background: #881000;
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -2007,7 +2008,7 @@ body.menu_open{
 }
 .team_01 p{
     font-size: 12px;
-    color: #f7a392;
+    color: #881000;
     font-weight: 600;
     margin: 0;
 }
@@ -2020,12 +2021,12 @@ body.menu_open{
     color: inherit;
 }
 .team_01 h3 a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 
 /*-- Appointment Section ---*/
 .cta{
-    background: url(../images/bg/22.png) no-repeat center center / cover #f7a392;
+    background: url(../images/bg/22.png) no-repeat center center / cover #881000;
     height: 100%;
     text-align: center;
 }
@@ -2091,13 +2092,13 @@ body.menu_open{
     font-size: 18px;
     text-align: center;
     line-height: 45px;
-    color: #f7a392;
+    color: #881000;
     margin: 0 3px;
     opacity: 0;
     visibility: hidden;
 }
 .pi_01_actions a:hover{
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 .pi_01_actions a:nth-child(01){
@@ -2143,7 +2144,7 @@ body.menu_open{
     z-index: 2;
 }
 .prLabels p {
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
     font-size: 10px;
     text-transform: uppercase;
@@ -2175,7 +2176,7 @@ body.menu_open{
     color: inherit;
 }
 .pi_content p a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .pi_content h3{
     font-size: 24px;
@@ -2186,7 +2187,7 @@ body.menu_open{
     color: inherit;
 }
 .pi_content h3 a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .product_price {
     font-size: 14px;
@@ -2272,7 +2273,7 @@ footer .widget.mailchimp{
     width: auto;
     height: 70px;
     display: inline-block;
-    background: #f7a392;
+    background: #881000;
     box-shadow: none;
     color: #fff;
     line-height: 70px;
@@ -2307,7 +2308,7 @@ footer .widget.mailchimp{
     background: #fff;
 }
 .header_03 a.humBurger:hover {
-    background: #f7a392;
+    background: #881000;
     color: #fff;
 }
 .header_03 .humBurger span:before, 
@@ -2350,7 +2351,7 @@ footer .widget.mailchimp{
     height: calc(100% + 10px);
     left: -5px;
     top: -5px;
-    border: 1px solid #f7a392;
+    border: 1px solid #881000;
     border-radius: 50%;
     content: '';
     visibility: hidden;
@@ -2372,7 +2373,7 @@ footer .widget.mailchimp{
 }
 .tp-bullet.selected,
 .tp-bullet:hover{
-    background: #f7a392;
+    background: #881000;
 }
 
 /*-- Feature Section ---*/
@@ -2466,7 +2467,7 @@ footer .widget.mailchimp{
     margin: 0;
 }
 .blog_item_03 .bp_content span{
-    background: #f7a392;
+    background: #881000;
     height: 28px;
     line-height: 28px;
     color: #fff;
@@ -2480,13 +2481,13 @@ footer .widget.mailchimp{
     color: #fff;
 }
 .blog_item_03 .lr_more:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .blog_item_03 .lr_more svg{
     stroke: #adb2b5;
 }
 .blog_item_03 .lr_more:hover svg{
-    stroke: #f7a392;
+    stroke: #881000;
 }
 
 /*------------------------------------------------------------------------------
@@ -2540,7 +2541,7 @@ footer .widget.mailchimp{
 }
 .breadcrumbs span,
 .breadcrumbs a{
-    color: #f7a392;
+    color: #881000;
     display: inline-block;
 }
 .breadcrumbs span{
@@ -2613,7 +2614,7 @@ footer .widget.mailchimp{
     font-size: 94px;
 }
 .icon_box_02:hover .ib_box svg {
-    fill: #f7a392;
+    fill: #881000;
 }
 .icon_box_02:hover .ib_box .bg_icon {
     color: #fff;
@@ -2629,7 +2630,7 @@ footer .widget.mailchimp{
     color: inherit;
 }
 .icon_box_02 h3 a:hover {
-    color: #f7a392;
+    color: #881000;
 }
 .icon_box_02 p {
     margin: 0;
@@ -2672,7 +2673,7 @@ footer .widget.mailchimp{
 .serv_meta i {
     font-size: 61px;
     line-height: 61px;
-    color: #f7a392;
+    color: #881000;
     margin: 0;
     position: absolute;
     left: 0;
@@ -2708,20 +2709,20 @@ footer .widget.mailchimp{
     margin: 0 0 24px;
 }
 .spa_content .mo_btn {
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 .spa_content .mo_btn i {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
 }
 .spa_content .mo_btn:hover {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
     box-shadow: -2px 4px 7px 0px rgba(226, 225, 225, .79);
 }
 .spa_content .mo_btn:hover i {
-    background: #f7a392;
+    background: #881000;
     color: #fff;
 }
 .spaTestimonial{
@@ -2772,7 +2773,7 @@ footer .widget.mailchimp{
     line-height: 50px;
     background: #fff;
     border-radius: 50%;
-    color: #f7a392;
+    color: #881000;
     font-size: 20px;
     z-index: 2;
     opacity: 0;
@@ -2840,7 +2841,7 @@ footer .widget.mailchimp{
 .gallerItem_2{
     position: relative;
     overflow: hidden;
-    background: #f7a392;
+    background: #881000;
 }
 .gallerItem_2 img{
     width: 100%;
@@ -2877,14 +2878,14 @@ footer .widget.mailchimp{
     font-size: 16px;
     text-align: center;
     line-height: 45px;
-    color: #f7a392;
+    color: #881000;
     margin: 0 3px;
     opacity: 0;
     visibility: hidden;
     border-radius: 50%;
 }
 .galleryItem_2_btn a:hover{
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 .galleryItem_2_btn a:nth-child(01){
@@ -2971,7 +2972,7 @@ footer .widget.mailchimp{
     left: 0;
     top: 0;
     height: 100%;
-    background: #f7a392;
+    background: #881000;
 }
 .team_content{
     position: relative;
@@ -2979,7 +2980,7 @@ footer .widget.mailchimp{
 }
 .team_content .tm_designation{
     font-size: 12px;
-    color: #f7a392;
+    color: #881000;
     font-weight: 600;
     display: block;
     margin: 0 0 3px;
@@ -3019,7 +3020,7 @@ footer .widget.mailchimp{
     font-family: 'Playfair Display', serif;
 }
 .tm_meta li i {
-    color: #f7a392;
+    color: #881000;
     font-size: 17px;
     line-height: inherit;
     margin-right: 15px;
@@ -3047,7 +3048,7 @@ footer .widget.mailchimp{
     justify-content: center;
     font-family: 'Playfair Display', serif;
     font-size: 48px;
-    color: #f7a392;
+    color: #881000;
     font-weight: 900;
     margin: 0 0 39px;
 }
@@ -3080,24 +3081,24 @@ footer .widget.mailchimp{
     font-family: 'IcoFont' !important;
     left: -6px;
     top: 2px;
-    color: #f7a392;
+    color: #881000;
     font-size: 18px;
 }
 .pricingTable .mo_btn {
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 .pricingTable .mo_btn i {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
 }
 .pricingTable .mo_btn:hover {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
     box-shadow: -2px 4px 7px 0px rgba(226, 225, 225, .79);
 }
 .pricingTable .mo_btn:hover i {
-    background: #f7a392;
+    background: #881000;
     color: #fff;
 }
 .pT2{
@@ -3152,7 +3153,7 @@ footer .widget.mailchimp{
     color: #252525;
 }
 .make_pagination a:hover, .make_pagination span.current {
-    color: #f7a392;
+    color: #881000;
 }
 
 /*--  Sidebar ---*/
@@ -3240,7 +3241,7 @@ footer .widget.mailchimp{
     border-radius: 5px;
 }
 #slider-range .ui-slider-handle {
-    background: #f7a392;
+    background: #881000;
     border: none;
     border-radius: 50%;
     display: inline-block;
@@ -3300,7 +3301,7 @@ footer .widget.mailchimp{
     color: inherit;
 }
 .product_widget_item h5 a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .product_widget_item .product_price{
     line-height: 29px;
@@ -3512,7 +3513,7 @@ footer .widget.mailchimp{
     padding-top: 1.5em;
 }
 .product_details .woocommerce-product-rating .star-rating span::before {
-    color: #f7a392;
+    color: #881000;
     font-family: 'IcoFont';
     content: "\f000\f000\f000\f000\f000";
     top: 0;
@@ -3524,7 +3525,7 @@ footer .widget.mailchimp{
     color: #707070;
 }
 .product_details .woocommerce-product-rating .woocommerce-review-link:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .pd_excrpt {
     margin: 0 0 37px;
@@ -3599,26 +3600,26 @@ footer .widget.mailchimp{
     border: none;
 }
 .quantityd button.qtyBtn:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .product_details .mo_btn {
     border: none;
     line-height: 38px;
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
     margin: 0 0 0 40px;
 }
 .product_details .mo_btn i {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
 }
 .product_details .mo_btn:hover {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
     box-shadow: -2px 4px 7px 0px rgba(226, 225, 225, .79);
 }
 .product_details .mo_btn:hover i {
-    background: #f7a392;
+    background: #881000;
     color: #fff;
 }
 .pro_meta{
@@ -3641,7 +3642,7 @@ footer .widget.mailchimp{
     display: inline-block;
 }
 .mtItem a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .pro_m_social{
     display: flex;
@@ -3661,7 +3662,7 @@ footer .widget.mailchimp{
     margin-left: 30px;
 }
 .pro_m_social a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .product_tabarea {
     position: relative;
@@ -3701,7 +3702,7 @@ footer .widget.mailchimp{
 }
 .product_tabarea .productTabs li a.active, .product_tabarea .productTabs li a:hover {
     border: none;
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
     box-shadow: -2px 4px 7px 0px rgba(226, 225, 225, .79);
 }
@@ -3781,7 +3782,7 @@ footer .widget.mailchimp{
     padding-top: 1.5em;
 }
 .productComent .woocommerce-product-rating .star-rating span::before {
-    color: #f7a392;
+    color: #881000;
     font-family: 'IcoFont';
     content: "\f000\f000\f000\f000\f000";
     top: 0;
@@ -3846,7 +3847,7 @@ footer .widget.mailchimp{
     font-size: 16px;
 }
 .woocommerce table.shop_table tbody tr td a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .woocommerce table.shop_table tr td.product-name img {
     width: 90px;
@@ -3882,7 +3883,7 @@ footer .widget.mailchimp{
     font-weight: 400;
 }
 .woocommerce table.shop_table a.remove:hover {
-    background: #f7a392;
+    background: #881000;
 }
 .woocommerce table.shop_table td.actions{
     padding-left: 0;
@@ -3914,7 +3915,7 @@ footer .widget.mailchimp{
 .woocommerce table.shop_table td.actions .button {
     min-width: 160px;
     height: 45px;
-    background: #f7a392;
+    background: #881000;
     line-height: 45px;
     font-size: 14px;
     text-transform: capitalize;
@@ -4025,14 +4026,14 @@ footer .widget.mailchimp{
     font-weight: 500;
 }
 .woocommerce ul#shipping_method li input[type="radio"]:checked + label{
-    color: #f7a392;
+    color: #881000;
 }
 .woocommerce ul#shipping_method li input[type="radio"]:checked ~ label:before {
     content: "\eed6";
-    border-color: #f7a392;
+    border-color: #881000;
 }
 .woocommerce ul#shipping_method li .amount{
-    color: #f7a392;
+    color: #881000;
 }
 .woocommerce .cart-collaterals .wc-proceed-to-checkout {
     padding: 24px 0 0;
@@ -4041,7 +4042,7 @@ footer .widget.mailchimp{
     min-width: 160px;
     height: 46px;
     display: inline-block;
-    background: #f7a392;
+    background: #881000;
     line-height: 46px;
     font-size: 16px;
     text-transform: capitalize;
@@ -4144,8 +4145,8 @@ footer .widget.mailchimp{
 .woocommerce-billing-fields input[type="checkbox"]:checked ~ label:before {
     content: "\eed6";
     color: #fff;
-    border-color: #f7a392;
-    background: #f7a392;
+    border-color: #881000;
+    background: #881000;
 }
 .woocommerce-checkout-review-order {
     background: #fff6f4;
@@ -4225,8 +4226,8 @@ footer .widget.mailchimp{
     font-weight: 500;
 }
 .woocommerce-checkout-payment ul li input[type="radio"]:checked ~ label:before {
-    border-color: #f7a392;
-    background: #f7a392;
+    border-color: #881000;
+    background: #881000;
     color: #fff;
 }
 .woocommerce-checkout-payment ul li input[type="radio"]:checked ~ label:after{
@@ -4260,7 +4261,7 @@ footer .widget.mailchimp{
 .woocommerce .woocommerce-checkout-review-order .place-order .button {
     min-width: 160px;
     height: 45px;
-    background: #f7a392;
+    background: #881000;
     line-height: 45px;
     font-size: 14px;
     text-transform: capitalize;
@@ -4312,7 +4313,7 @@ footer .widget.mailchimp{
 .woocommerce-form-login .button.mo_btn{
     min-width: 160px;
     height: 45px;
-    background: #f7a392;
+    background: #881000;
     line-height: 45px;
     font-size: 14px;
     text-transform: capitalize;
@@ -4333,7 +4334,7 @@ form.woocommerce-form-login .button.mo_btn i {
     width: 35px;
     height: 35px;
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
     top: 5px;
     left: 5px;
     font-size: 15px;
@@ -4341,11 +4342,11 @@ form.woocommerce-form-login .button.mo_btn i {
 }
 .authWrap form.woocommerce-form-login .button.mo_btn:hover {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
     box-shadow: -2px 4px 7px 0px rgba(226, 225, 225, .79);
 }
 .authWrap form.woocommerce-form-login .button.mo_btn:hover i {
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 
@@ -4412,7 +4413,7 @@ form.woocommerce-form-login .button.mo_btn i {
     -webkit-transition: all ease 400ms;
 }
 .search_form button:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .pp_post_item {
     position: relative;
@@ -4436,12 +4437,12 @@ form.woocommerce-form-login .button.mo_btn i {
     color: inherit;
 }
 .pp_post_item h5 a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .pp_post_item span{
     display: block;
     font-size: 12px;
-    color: #f7a392;
+    color: #881000;
 }
 .sidebar ul {
     margin: 0;
@@ -4486,7 +4487,7 @@ form.woocommerce-form-login .button.mo_btn i {
     line-height: inherit;
 }
 .sidebar ul li a:hover {
-    color: #f7a392;
+    color: #881000;
 }
 .tagcloud {
     position: relative;
@@ -4513,8 +4514,8 @@ form.woocommerce-form-login .button.mo_btn i {
     font-family: 'Playfair Display', serif;
 }
 .tagcloud a:hover{
-    border-color: #f7a392;
-    background: #f7a392;
+    border-color: #881000;
+    background: #881000;
     color: #fff;
 }
 .gallery_shots {
@@ -4600,7 +4601,7 @@ form.woocommerce-form-login .button.mo_btn i {
 }
 .bpdate{
     display: block;
-    color: #f7a392;
+    color: #881000;
     font-size: 14px;
     margin-bottom: 15px;
 }
@@ -4630,16 +4631,16 @@ form.woocommerce-form-login .button.mo_btn i {
     position: absolute;
     z-index: 3;
     color: transparent;
-    text-stroke: .5px #f7a392;
-    -moz-text-stroke: .5px #f7a392;
-    -webkit-text-stroke: .5px #f7a392;
+    text-stroke: .5px #881000;
+    -moz-text-stroke: .5px #881000;
+    -webkit-text-stroke: .5px #881000;
     font-size: 72px;
     line-height: 72px;
 }
 .sic_the_content blockquote p, .sic_the_content blockquote.wp-block-quote p {
     font-size: 24px;
     line-height: 34px;
-    color: #f7a392;
+    color: #881000;
     font-style: italic;
     font-weight: 300;
     margin: 0;
@@ -4664,7 +4665,7 @@ form.woocommerce-form-login .button.mo_btn i {
     color: #879296;
 }
 .tags a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .socialShare{
     display: flex;
@@ -4677,7 +4678,7 @@ form.woocommerce-form-login .button.mo_btn i {
     margin-left: 30px;
 }
 .socialShare a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .post_author{
     position: relative;
@@ -4702,7 +4703,7 @@ form.woocommerce-form-login .button.mo_btn i {
     color: inherit;
 }
 .post_author h5 a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .post_author p{
     margin: 0;
@@ -4751,12 +4752,12 @@ form.woocommerce-form-login .button.mo_btn i {
     color: inherit;
 }
 .single_comment .cm_author a:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .single_comment .cm_date {
     display: block;
     font-size: 12px;
-    color: #f7a392;
+    color: #881000;
     line-height: .8;
     margin: 0 0 17px;
 }
@@ -4776,7 +4777,7 @@ form.woocommerce-form-login .button.mo_btn i {
     margin-right: 10px;
 }
 .comment-reply-link:hover{
-    color: #f7a392;
+    color: #881000;
 }
 .commentForm{
     position: relative;
@@ -4826,7 +4827,7 @@ form.woocommerce-form-login .button.mo_btn i {
     padding-left: 53px;
     padding-right: 29px;
     border: none;
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
 .commentForm .mo_btn i {
@@ -4835,15 +4836,15 @@ form.woocommerce-form-login .button.mo_btn i {
     font-size: 16px;
     line-height: 35px;
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
 }
 .commentForm .mo_btn:hover {
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
     box-shadow: -2px 4px 7px 0px rgba(226, 225, 225, .79);
 }
 .commentForm .mo_btn:hover i {
-    background: #f7a392;
+    background: #881000;
     color: #fff;
 }
 input[type="checkbox"] {
@@ -4878,8 +4879,8 @@ input[type="checkbox"] ~ label:before {
 }
 input[type="checkbox"]:checked ~ label:before {
     content: "\eed6";
-    color: #f7a392;
-    border-color: #f7a392;
+    color: #881000;
+    border-color: #881000;
 }
 .commentForm .comment-form-cookies-consent{
     margin: -6px 0 34px;
@@ -4924,7 +4925,7 @@ input[type="checkbox"]:checked ~ label:before {
     top: 9px;
     width: 45px;
     height: 45px;
-    background: #f7a392;
+    background: #881000;
     font-size: 20px;
     color: #fff;
     text-align: center;
@@ -5039,7 +5040,7 @@ input[type="checkbox"]:checked ~ label:before {
     transition: all 0.4s ease;
 }
 .ScrollSpyNav ul li.active svg, .ScrollSpyNav ul li:hover svg{
-    fill: #f7a392;
+    fill: #881000;
 }
 .ScrollSpyNav ul li svg g{
     fill: inherit;
@@ -5047,7 +5048,7 @@ input[type="checkbox"]:checked ~ label:before {
 .ScrollSpyNav ul li i {
     display: block;
     font-size: 56px;
-    color: #f7a392;
+    color: #881000;
     z-index: 3;
     margin: 0 0 15px;
     -webkit-transition: all 0.4s ease;
@@ -5097,13 +5098,13 @@ input[type="checkbox"]:checked ~ label:before {
     transition: all 0.4s ease;
 }
 .nav-tabs.pricingTab .nav-item .nav-link:hover svg, .nav-tabs.pricingTab .nav-item .nav-link.active svg{
-    fill: #f7a392;
+    fill: #881000;
 }
 .nav-tabs.pricingTab .nav-item .nav-link svg g{
     fill: inherit;
 }
 .nav-tabs.pricingTab .nav-item .nav-link i{
-    color: #f7a392;
+    color: #881000;
     font-size: 35px;
     position: absolute;
     left: 0;
@@ -5133,7 +5134,7 @@ input[type="checkbox"]:checked ~ label:before {
     transition: all 0.4s ease;
 }
 .nav-tabs.pricingTab .nav-item .nav-link:hover span, .nav-tabs.pricingTab .nav-item .nav-link.active span{
-    color: #f7a392;
+    color: #881000;
 }
 .nav-tabs.pricingTab .nav-item .nav-link:hover svg, .nav-tabs.pricingTab .nav-item .nav-link.active svg{
     filter: none;
@@ -5220,7 +5221,7 @@ input[type="checkbox"]:checked ~ label:before {
     display: none;
 }
 .mkAccordion .card .card-header h2 button:not(.collapsed) span:after{
-    background: #f7a392;
+    background: #881000;
 }
 .mkAccordion .card .card-header h2 button span:before{
     content: '';
@@ -5239,7 +5240,7 @@ input[type="checkbox"]:checked ~ label:before {
     padding-right: 35px;
 }
 .mkAccordion .card .card-header h2 button:hover, .mkAccordion .card .card-header h2 button:not(.collapsed){
-    color: #f7a392;
+    color: #881000;
 }
 .mkAccordion .card .card-body{
     border-top: 1px solid #eeeeee;
@@ -5304,7 +5305,7 @@ input[type="checkbox"]:checked ~ label:before {
 }
 .autorDetails span{
     font-size: 14px;
-    color: #f7a392;
+    color: #881000;
     line-height: 18px;
     margin: 0 0 8px;
     display: block;
@@ -5350,7 +5351,7 @@ body .booked-modal input[type=submit].button-primary:hover, body table.booked-ca
 body table.booked-calendar thead th, 
 body #booked-profile-page .booked-profile-header, body #booked-profile-page .booked-tabs li.active a, body #booked-profile-page .booked-tabs li.active a:hover, 
 body #booked-profile-page .appt-block .google-cal-button > a:hover, #ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header {
-    background: #f7a392 !important;
+    background: #881000 !important;
 }
 body table.booked-calendar thead tr th {
     font-weight: 600;
@@ -5510,15 +5511,15 @@ body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button, 
 body #booked-profile-page .appt-block .google-cal-button > a, body .booked-modal p.booked-title-bar, 
 body table.booked-calendar td:hover .date span, body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active, 
 body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover, .booked-ms-modal .booked-book-appt {
-    background: #f7a392;
+    background: #881000;
 }
 body table.booked-calendar td.today .date span {
-    border: 2px solid #f7a392;
+    border: 2px solid #881000;
     line-height: 42px;
     color: #252525 !important;
 }
 body table.booked-calendar td.today:hover .date span {
-    background: #f7a392 !important;
+    background: #881000 !important;
     color: #fff !important;
 }
 body table.booked-calendar td.prev-date:hover .date {
@@ -5589,7 +5590,7 @@ body .booked-calendar-wrap .booked-appt-list h2 {
     line-height: 1.4;
 }
 body .booked-calendar-wrap .booked-appt-list h2 strong{
-    color: #f7a392;
+    color: #881000;
 }
 body .booked-appt-list .timeslot {
     -webkit-transition: all .1s ease-out;
@@ -5632,7 +5633,7 @@ body .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-title {
     font-family: 'Playfair Display', serif;
     margin: 0 0 14px;
     display: block;
-    color: #f7a392;
+    color: #881000;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: .45px;
@@ -5649,7 +5650,7 @@ body .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-range {
     margin: 0 0 11px;
 }
 body .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-time i.booked-icon {
-    color: #f7a392;
+    color: #881000;
     font-weight: 400;
     font-size: 16px;
     position: relative;
@@ -5689,7 +5690,7 @@ body table.booked-calendar button {
     position: relative;
     height: 40px;
     border: none;
-    background: #f7a392;
+    background: #881000;
     border-radius: 40px;
     display: inline-block;
     font-size: 12px;
@@ -5769,7 +5770,7 @@ body .bookedClearFix:after {
 }
 .galleryMeta {
     position: relative;
-    background: #f7a392;
+    background: #881000;
     margin-bottom: 50px;
 }
 .galleryMeta .row{
@@ -5819,7 +5820,7 @@ body .bookedClearFix:after {
 .galleryUL li:before{
     content: '\eed6';
     font-family: 'IcoFont';
-    color: #f7a392;
+    color: #881000;
     font-size: 18px;
     position: absolute;
     left: -3px;
@@ -5836,7 +5837,7 @@ body .bookedClearFix:after {
 .absoluteViedoBtn{
     width: 80px;
     height: 80px;
-    background: #f7a392;
+    background: #881000;
     color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -5855,7 +5856,7 @@ body .bookedClearFix:after {
 }
 .absoluteViedoBtn:hover{
     background: #FFF;
-    color: #f7a392;
+    color: #881000;
 }
 .spa_content.text-right{
     padding-left: 0;
@@ -5889,6 +5890,6 @@ body .bookedClearFix:after {
     right: auto;
 }
 .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover{
-    background: #f7a392;
+    background: #881000;
     color: #FFF;
 }
