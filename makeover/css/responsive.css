@@ -212,7 +212,8 @@
         padding: 30px 0 65px 30px;
     }
     .abBg2 {
-        background-size: 105%;
+        padding: 30px 0 65px 30px;
+        /* background-size: 105%; */
     }
     .appointment_area{
         padding-left: 25px;
@@ -793,7 +794,9 @@
         padding-left: 0;
     }
     .abBg2 {
-        background-size: 105%;
+        padding: 20px 0 65px 20px;
+
+        /* background-size: 105%; */
     }
     .actionBox{
         padding: 20px 0 65px 20px;
@@ -1103,7 +1106,9 @@
         margin-top: 30px;
     }
     .abBg2 {
-        background-size: 120%;
+        padding: 20px 0 65px 20px;
+        margin-top: 30px;
+        /* background-size: 120%; */
     }
     .abContent h2:after{
         display: none;

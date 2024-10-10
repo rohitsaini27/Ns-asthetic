@@ -98,14 +98,14 @@ input[type="number"]::-webkit-inner-spin-button {
     position: relative;
     height: 40px;
     border: none;
-    background: #FFF;
+    background: #881000;
     border-radius: 40px;
     padding-left: 42px;
     padding-right: 16px;
     display: inline-block;
     font-size: 12px;
     text-transform: capitalize;
-    color: #252525;
+    color: #fff;
     font-weight: 500;
     line-height: 40px;
     transition: all ease 400ms;
@@ -120,7 +120,7 @@ input[type="number"]::-webkit-inner-spin-button {
     padding-right: 29px;
 }
 .mo_btn:hover{
-    background: #881000;
+    background: #BE8933;
     color: #FFF;
 }
 .mo_btn i{
@@ -129,10 +129,10 @@ input[type="number"]::-webkit-inner-spin-button {
     top: 7.5px;
     width: 25px;
     height: 25px;
-    color: #FFF;
+    color: #881000;
     text-align: center;
     border-radius: 50%;
-    background: #881000;
+    background: #fff;
     font-size: 14px;
     line-height: 25px;
     
